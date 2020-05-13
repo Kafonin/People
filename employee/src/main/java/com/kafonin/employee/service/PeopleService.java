@@ -32,12 +32,3 @@ public class PeopleService {
 		peopleRepo.deleteById(id);
 	}
 }
-
-/*    @GetMapping("/savePeople")
-    public String addPeople(@ModelAttribute("people") People people, Model model) {
-        peopleRepository.save(people);
-
-        List<People> peoples = (List<People>) peopleRepository.findAll();
-        model.addAttribute("peoples", peoples);
-        return "people";
-    }*/

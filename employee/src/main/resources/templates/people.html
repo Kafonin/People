@@ -40,28 +40,26 @@
                           <h4 class="modal-title">New person form</h4>
                         </div>
                         <div class="modal-body">
-                            <tr>
-                                <td>Last Name:</td>
-                                <td><input type="text" th:name="lastName" placeholder="Last Name" /></td>
-                            </tr>
-                            <tr>
-                                <td>First Name:</td>
-                                <td><input type="text" th:name="firstName" placeholder="First Name" /></td>
-                            </tr>
-                            <tr>
-                                <td>Company:</td>
-                                <td><input type="text" th:name="company" placeholder="Company" /></td>
-                            </tr>
-                            <tr>
-                                <td>Job:</td>
-                                <td><input type="text" th:name="job" placeholder="Job" /></td>
-                            </tr>
+                            
+                                <label>Last Name:</label>
+                                <input type="text" th:name="lastName" placeholder="Last Name" />
+
+                            
+                                <label>Company:</label>
+                                <input type="text" th:name="company" placeholder="Company" />
+                                <br>
+
+
+                                <label>First Name:</label>
+                                <input type="text" th:name="firstName" placeholder="First Name" />                           
+                            
+                            
+                                <label>Job:</label>
+                                <input type="text" th:name="job" placeholder="Job" />  
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                        <div>
-                            <input type="submit" value="Add Person" />
+                          <input type="submit" class="btn btn-default" value="Add Person" />
                         </div>
                       </div>
                 </form> 
