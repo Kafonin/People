@@ -1,4 +1,4 @@
-package com.kafonin.employee.service;
+/*package com.kafonin.employee.service;
 
 import javax.transaction.Transactional;
 
@@ -31,4 +31,4 @@ public class PeopleService {
 	public void delete(long id) {
 		peopleRepo.deleteById(id);
 	}
-}
+}*/
