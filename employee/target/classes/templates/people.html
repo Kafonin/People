@@ -33,7 +33,7 @@
               <div class="modal-dialog">
               
                 <!-- Modal content-->
-                <form th:action="@{/savePeople}" th:object="${people}">
+                <form th:action="@{/savePeople}" th:object="${people}" method="POST">
                     <div class="modal-content">
                         <div class="modal-header">
                           <button type="button" class="close" data-dismiss="modal">&times;</button>

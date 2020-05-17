@@ -27,10 +27,10 @@ public class PeopleController {
     }
 
     // Begin Dynamo DB C.R.U.D.
-    @PostMapping
-	public String insertIntoDynamoDB(@RequestBody People people) {
+    @PostMapping(path = "/savePeople")
+	public String insertIntoDynamoDB(People people) {
 		peopleRepository.insertIntoDynamoDB(people);
-		return "Successfully inserted into DynamoDB table";
+		return "people";
 	}
 
 	@GetMapping
